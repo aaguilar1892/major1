@@ -16,9 +16,17 @@ appropriate value (no error message is needed here).
 */
 
 // major1.c
+#include <stdio.h>
+#include "major1.h"
 
 int main() {
-    switch (EXPRESSION) {  }
+    switch () {
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+        default:
+    }
     
     return 0;
 }
